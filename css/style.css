@@ -140,5 +140,27 @@ body{
 /* --------|--product part css end--|--------*/
 
 /* --------|--product part css end--|--------*/
-
+#service{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.service-left-service {
+    width: 489px;
+    height: 135px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 20px -12px #000;
+}
+.ser-text h5{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #363958;
+}
+.ser-text p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3E3E3E;
+}
 /* --------|--product part css end--|--------*/
