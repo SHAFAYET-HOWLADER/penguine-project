@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px){
+    .navbar {
+        padding-top: 0px;
+    }
+    #banner {
+        padding-top:80px;
+        padding-bottom: 60px;
+    }
+    .banner-left{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .banner-left h2, span {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    .banner-left a {
+        margin-top: 15px;
+    }
+    .banner-right{
+        display: flex;
+        justify-content: center;
+    }
+    .product-title h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .product-img{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .producr-flex a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .producr-flex h3 {
+        font-size: 25px;
+    }
+}
