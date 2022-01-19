@@ -40,6 +40,13 @@ body{
     font-size: 16px;
     color: #3C3C3C;
     margin-left: 15px;
+    text-transform: capitalize;
+    transition: all linear .4s;
+}
+.nav-item .nav-link:hover{
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
 }
 /* --------|--header part css end--|--------*/
 
@@ -76,7 +83,7 @@ body{
     border-radius: 10px;
     color: #fff;
     margin-top: 8px;
-    animation: btn-animate 6s ease 3s 5;
+    animation: btn-animate 6s ease 3s 10;
 }
 @keyframes btn-animate{
           0%{
