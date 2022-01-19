@@ -1,6 +1,6 @@
 
 /* -------|--google fonts--|--------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@400;500;700&display=swap');
 /* -------|--google fonts--|--------*/
 
 
@@ -27,5 +27,11 @@ body{
 /* --------|--all common css end--|--------*/
 
 /* --------|--header part css start--|--------*/
-
+.nav-item .nav-link{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3C3C3C;
+    margin-left: 15px;
+}
 /* --------|--header part css end--|--------*/
