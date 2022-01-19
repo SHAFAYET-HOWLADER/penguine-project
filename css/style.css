@@ -27,6 +27,14 @@ body{
 /* --------|--all common css end--|--------*/
 
 /* --------|--header part css start--|--------*/
+.navbar{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 999;
+    padding-top: 20px;
+}
 .nav-item .nav-link{
     font-family: Roboto;
     font-weight: 500;
@@ -35,3 +43,100 @@ body{
     margin-left: 15px;
 }
 /* --------|--header part css end--|--------*/
+
+/* --------|--banner part css start--|--------*/
+#section{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: #FFFBF0;
+}
+.banner-left h2{
+    color: #FABE4C;
+}
+.banner-left span{
+    color: #000;
+}
+.banner-left h2,span{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.banner-left p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.banner-left a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 8px;
+    animation: btn-animate 6s ease 3s 5;
+}
+@keyframes btn-animate{
+          0%{
+              transform: scale(.1);
+            background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+          }
+          100%{
+            transform:scale(1);
+          }
+}
+/* --------|--banner part css end--|--------*/
+
+/* --------|--product part css start--|--------*/
+#product{
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.product-title h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #363958;
+    text-transform: uppercase;
+}
+.card{
+    width: 370px;
+    height: 550px;
+    border: none;
+    border-radius: 20px;
+}
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #363958;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.producr-flex a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 8px;
+}
+.producr-flex h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FABE4C;
+}
+.product-img img{
+    border-radius: 20px;
+}
+/* --------|--product part css end--|--------*/
