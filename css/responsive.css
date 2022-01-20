@@ -1,7 +1,23 @@
 
+            @media(min-width:1200px) and (max-width: 1400px) {
+                
+            }
 
-
-
+            @media(min-width:992px) and (max-width: 1199px) {
+                .banner-left h2, span {
+                    font-size: 65px;
+                }
+                .producr-flex a {
+                    font-size: 14px;
+                    padding: 10px 20px;
+                }
+                .producr-flex h3 {
+                    font-size: 30px;
+                }
+                .card-title {
+                    font-size: 20px;
+                }
+            }
 
             @media(min-width:768px) and (max-width: 991px) {
                 .nav-item .nav-link {
