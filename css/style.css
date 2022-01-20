@@ -171,3 +171,44 @@ body{
     color: #3E3E3E;
 }
 /* --------|--product part css end--|--------*/
+
+/* --------|--footer part css start--|--------*/
+#footer{
+    padding: 50px 0px;
+    background-color: #000;
+}
+.footer-text h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-text p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #d1d1d1;
+}
+.footer-social i{
+    border-radius: 50%;
+    margin: 0px 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    animation: icon linear 7s 1s infinite;
+}
+@keyframes icon{
+   0%{
+       transform: rotate(45deg);
+   }
+   100%{
+       transform: rotate(360deg);
+   }
+}
+/* --------|--footer part css end--|--------*/
