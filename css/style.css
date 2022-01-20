@@ -55,6 +55,7 @@ body{
     padding-top: 150px;
     padding-bottom: 50px;
     background: #FFFBF0;
+    width: 100%;
 }
 .banner-left h2{
     color: #FABE4C;
@@ -100,6 +101,7 @@ body{
 #product{
     padding-top: 100px;
     padding-bottom: 130px;
+    width: 100%;
 }
 .product-title h2{
     font-family: 'Oswald', sans-serif;
@@ -109,10 +111,11 @@ body{
     text-transform: uppercase;
 }
 .card{
-    width: 370px;
-    height: 550px;
+    /* width: 370px;
+    height: 550px; */
     border: none;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px -12px #000;
 }
 .card-title{
     font-family: 'Roboto', sans-serif;
@@ -150,6 +153,7 @@ body{
 #service{
     padding-top: 100px;
     padding-bottom: 150px;
+    width: 100%;
 }
 .service-left-service {
     width: 489px;
@@ -176,6 +180,7 @@ body{
 #footer{
     padding: 50px 0px;
     background-color: #000;
+    width: 100%;
 }
 .footer-text h2{
     font-family: 'Oswald', sans-serif;
@@ -193,13 +198,13 @@ body{
 .footer-social i{
     border-radius: 50%;
     margin: 0px 5px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     animation: icon linear 7s 1s infinite;
 }
