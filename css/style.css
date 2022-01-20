@@ -32,7 +32,7 @@ body{
     left: 0px;
     right: 0px;
     z-index: 999;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .nav-item .nav-link{
     font-family: Roboto;
@@ -151,13 +151,12 @@ body{
 
 /* --------|--product part css end--|--------*/
 #service{
-    padding-top: 100px;
     padding-bottom: 150px;
     width: 100%;
 }
 .service-left-service {
-    width: 489px;
-    height: 135px;
+    max-width: 489px;
+    max-height: 135px; 
     border-radius: 20px;
     margin-bottom: 16px;
     box-shadow: 0px 0px 20px -12px #000;
